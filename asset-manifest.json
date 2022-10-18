@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba56895b.css",
-    "main.js": "/static/js/main.1eab25bd.js",
+    "main.css": "/static/css/main.80ba5283.css",
+    "main.js": "/static/js/main.c9e10b23.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Boat_website.jpg": "/static/media/Boat_website.9f1e1a356461620d1db0.jpg",
+    "static/media/bgimage2.jpg": "/static/media/bgimage2.038308633342903525a0.jpg",
+    "static/media/Boat.jpg": "/static/media/Boat.78a6ca834ddc7a6fc893.jpg",
+    "static/media/j_crew.jpg": "/static/media/j_crew.297e1b5607ffc85625fa.jpg",
     "static/media/Souvik Patra fw19_0280.pdf.pdf": "/static/media/Souvik Patra fw19_0280.pdf.37abccc039e704fa1f46.pdf",
     "static/media/my photo.jpg": "/static/media/my photo.1229bc4fed53c66c6128.jpg",
-    "static/media/bg_color2.jpg": "/static/media/bg_color2.55fc52165f8691d4dbaf.jpg",
+    "static/media/Codecov.jpg": "/static/media/Codecov.bc765cbd25f6be7df695.jpg",
     "index.html": "/index.html",
-    "main.ba56895b.css.map": "/static/css/main.ba56895b.css.map",
-    "main.1eab25bd.js.map": "/static/js/main.1eab25bd.js.map",
+    "main.80ba5283.css.map": "/static/css/main.80ba5283.css.map",
+    "main.c9e10b23.js.map": "/static/js/main.c9e10b23.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba56895b.css",
-    "static/js/main.1eab25bd.js"
+    "static/css/main.80ba5283.css",
+    "static/js/main.c9e10b23.js"
   ]
 }
