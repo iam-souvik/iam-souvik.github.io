@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b91211e1.css",
-    "main.js": "/static/js/main.f1aff529.js",
+    "main.css": "/static/css/main.4bf57331.css",
+    "main.js": "/static/js/main.7c2b9910.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/bgimage2.jpg": "/static/media/bgimage2.038308633342903525a0.jpg",
     "static/media/Boat.jpg": "/static/media/Boat.78a6ca834ddc7a6fc893.jpg",
     "static/media/j_crew.jpg": "/static/media/j_crew.297e1b5607ffc85625fa.jpg",
+    "static/media/nifty_website.jpg": "/static/media/nifty_website.b8f9ca01c07c21b0392b.jpg",
     "static/media/Souvik Patra fw19_0280.pdf.pdf": "/static/media/Souvik Patra fw19_0280.pdf.37abccc039e704fa1f46.pdf",
     "static/media/Codecov.jpg": "/static/media/Codecov.bc765cbd25f6be7df695.jpg",
     "static/media/Mynew_photo.jpg": "/static/media/Mynew_photo.505a35a583de2a7b4d74.jpg",
     "index.html": "/index.html",
-    "main.b91211e1.css.map": "/static/css/main.b91211e1.css.map",
-    "main.f1aff529.js.map": "/static/js/main.f1aff529.js.map",
+    "main.4bf57331.css.map": "/static/css/main.4bf57331.css.map",
+    "main.7c2b9910.js.map": "/static/js/main.7c2b9910.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b91211e1.css",
-    "static/js/main.f1aff529.js"
+    "static/css/main.4bf57331.css",
+    "static/js/main.7c2b9910.js"
   ]
 }
