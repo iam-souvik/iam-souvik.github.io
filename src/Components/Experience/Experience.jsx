@@ -12,7 +12,7 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5 >The Languages I Learnt</h5>
-      <h2 >Languages and Tools</h2>
+      <h2 >Skills and Tools</h2>
 
       <div className='container experience_container'>
         <div className="experience_frontend">
@@ -133,6 +133,16 @@ const Experience = () => {
               {/* <small className='text_light'>Intermediate</small> */}
               </div>
             </article>
+
+            <article  className='experince_details'>
+              <div>
+              <div className="client_avtar icon_img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" alt="avatar" />
+              </div>
+              <h4>Redux</h4>
+              </div>
+            </article>
+
           </div>
         </div>
       </div>

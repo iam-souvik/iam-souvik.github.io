@@ -3,9 +3,21 @@
     justify-content: center;
     align-items: center;
     background: transparent;
+    /* border: 1px solid red; */
+    padding: 2rem;
 }
 .github_calendar footer{
     background: transparent;
     padding: 1rem 0rem;
     font-size: 0.9rem;
+    /* border: 1px solid orange; */
 }
+
+.git_stats img{
+    background: var(--color-bg-variant);
+    width: 100%;
+    object-fit: cover;
+  }
+  .github_status>div{
+      padding: 1rem 1rem;
+  }

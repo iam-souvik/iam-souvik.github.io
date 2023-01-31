@@ -19,9 +19,10 @@ function App() {
       <Header/>
       <Nav/>
       <About/>
-      <Experience/>
       <Protfolio/>
+      <Experience/>
       <Services/>
+      
       <Github/>
       <Testimonial/>
       <Contact/>

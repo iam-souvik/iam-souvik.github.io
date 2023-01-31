@@ -9,46 +9,34 @@ import "aos/dist/aos.css"
 import { useEffect } from 'react'
 
 const About = () => {
-  // useEffect(()=>{
-  //   Aos.init({duration:1000})
-  // },[])
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  },[])
   return (
     <section id='about'>
       <h5 >Get to Know</h5>
       <h2 >About Me</h2>
-      <div className='about_me_para'>
-        <p >I am a Full Stack developer with experience in building websites and web applications. I specialize in MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies in traveling..</p>
-      </div>
-
-
-      {/* <p >I am a Full Stack developer with experience in building websites and web applications. I specialize in MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies in traveling..</p> */}
       <div className='container about_container'>
-        <div className="about_me">
-          <div className="about_me_image">
-            <img src={ME} alt="#" />
-          </div>
-        </div>
         <div className="about_content">
-          <div className="about_cards">
-            <article className='about_card'>
-              <FaAward className='about_icon' />
-              <h5>DSA</h5>
-              <small>250+ DSA Problems</small>
-            </article>
-            <article className='about_card'>
-              <VscFolderLibrary className='about_icon' />
-              <h5>Projects</h5>
-              <small>6+ projects (Major)</small>
-            </article>
-            <article className='about_card'>
-              <VscFolderLibrary className='about_icon' />
-              <h5>Coding</h5>
-              <small>1200+ Hours Of Coding</small>
-            </article>
-          </div>
-
-          {/* <p >I am a Full Stack developer with experience in building websites and web applications. I specialize in MERN stack, along with an expertise in JavaScript, HTML, CSS, and React. Outside of coding, my interest lies in traveling..</p> */}
-          <a href="#contact" className='btn btn_primary'>Let's Talk</a>
+          <p >Skilled full stack developer and quick learner <br /> who possesses the ability to adapt with
+            new environment quickly.  <br /> Looking forward to working with a company that enables
+            me to utilize my knowledge and skills, learn new things and help me achieve personal
+            as well  <br /> as  organizational goals.
+          </p>
+        </div>
+      </div>
+      <div className='container experience_container about'>
+        <div className="my_stats">
+          <div data-aos="fade-up" className='stats'>1200+</div>
+          <p>Hours of Full Stack Coding</p>
+          <div data-aos="fade-up" className='stats'>100+</div>
+          <p>Hours of Soft Skill Sessions</p>
+        </div>
+        <div data-aos="fade-up" className="my_stats">
+          <div className='stats'>250+</div>
+          <p>DSA Problems</p>
+          <div data-aos="fade-up" className='stats'>4+</div>
+          <p>Projects Done</p>
         </div>
       </div>
     </section>

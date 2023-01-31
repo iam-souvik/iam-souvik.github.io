@@ -1,4 +1,4 @@
-nav{
+/* nav{
     background: rgba(0, 0, 0,0.3);
     width: max-content;
     display: block;
@@ -12,7 +12,8 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
-    /* top: 50%; */
+    top: 50%;
+    z-index: 10;
 }
 nav a{
     background: transparent;
@@ -28,4 +29,104 @@ nav a:hover{
 nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
+} */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-bg-variant);
+    /* background-image: url(C:\Users\Jyotirmaya\OneDrive\Desktop\My_Protfolio\my_protfolio\src\Assests\bg-texture.png); */
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    margin-bottom: 130px;
+    /* border-bottom-left-radius: 15px; */
+    /* border-bottom-right-radius: 15px; */
+}
+.dp{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: var(--color-primary);
+}
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:var(--color-primary);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.resume_btn{
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+#mobile{
+    color: white;
+    display: none;
+}
+.rotate{
+    rotate: 180deg;
+}
+@media screen and (max-width:769px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: var(--color-bg-variant) ;
+        box-shadow: 0 40px 50px rgba(0, 0, 0, 0.6);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        color: white;
+        display: block;
+    }
+    .nav_icon{
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+   
 }

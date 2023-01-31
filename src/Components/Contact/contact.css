@@ -49,8 +49,16 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    /* color: var(--color-white); */
 }
+/* .scroll_up {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+} */
 
 @media screen and (max-width: 1024px) {
     .container.contact-container{

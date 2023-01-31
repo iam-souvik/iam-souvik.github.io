@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_5q1h19k', 'template_dciz76e', form.current, '5RoRq3Vq10tPXGDnp')
-     e.target.reset()
+    e.target.reset()
   }
   return (
     <section id='contact'>
@@ -40,12 +40,20 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required style={{background:"white"}} />
-          <input type="email" name='email' placeholder='Your Email' required style={{background:"white"}} />
-          <textarea name="name" placeholder='Your Message' rows="7" required style={{background:"white"}}></textarea>
-          <button type='submit' className='btn btn_primary' style={{ marginLeft:"150px"}} >Send Message</button>
+          <input type="text" name='name' placeholder='Your Full Name' required style={{ background: "white" }} />
+          <input type="email" name='email' placeholder='Your Email' required style={{ background: "white" }} />
+          <textarea name="name" placeholder='Your Message' rows="7" required style={{ background: "white" }}></textarea>
+          <button type='submit' className='btn btn_primary' style={{ marginLeft: "150px" }} >Send Message</button>
         </form>
+
+        {/* <div>
+          <a href="#nav" className='scroll_up'>Scroll Up</a>
+        </div> */}
       </div>
+
+
+
+
     </section>
   )
 }

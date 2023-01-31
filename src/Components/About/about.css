@@ -1,71 +1,40 @@
 .about_container{
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
-    margin-top: 10vh;
-    border: 1px solid red;
+    grid-template-columns: 1fr;
 }
-
-.about_me_para{
-    /* width: 70%; */
-}
-
-.about_me_para>p{
-    /* width: 70%; */
+.about_content{
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
-    /* padding: 20px; */
-    /* margin-left: 200px; */
-}
-.about_me{
-    width: 70%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
-    display: grid;
-    place-items: center;
-}
-.about_me_image{
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(5deg);
-    transition: var(--transistion);
-}
-
-
-.about_me_image:hover{
-    transform: rotate(0deg);
-}
-.about_cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1.5rem;
-}
-.about_card{
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transistion);
-}
-.about_card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-}
-.about_icon{
-    color: var(--color-primary);
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-}
-.about_card h5{
-    font-size: 0.95rem;
-}
-.about_card small{
-    font-size: 0.7rem;
-    color:var(--color-light)
 }
 .about_content p{
-    margin: 2rem 0 2.6rem;
+    margin: 0rem 0 2.6rem;
+    color: var(--color-white);
+}
+.experience_container .my_stats {
+    background: transparent;
+    text-align: center;
+    padding: 0rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transtion);
+    font-size: 0.9rem;
+    color: var(--color-light);
+}
+.experience_container .my_stats:hover {
+    background: transparent;
+    border: 1px solid transparent;
+}
+.stats{
+    width: 100%;
+    border: 3px solid var(--color-primary);
+    border-radius: 30px;
+    padding: 1.5rem 2.2rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 0 10px var(--color-primary);
+    font-size: 1.1rem;
     color: var(--color-white);
 }
 @media screen and (max-width: 1024px) {
@@ -77,6 +46,9 @@
         width: 50%;
         background: transparent;
         margin: 2rem auto 4rem;
+    }
+    .about_content{
+        width: 100%;
     }
     .about_content p{
         margin: 1rem 0 1.5rem;

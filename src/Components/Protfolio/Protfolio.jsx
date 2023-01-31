@@ -2,7 +2,8 @@ import React from 'react'
 import './protfolio.css'
 import IMG1 from "../../Assests/Boat.jpg"
 import IMG2 from "../../Assests/Codecov.jpg"
-import IMG3 from "../../Assests/j_crew.jpg"
+import IMG3 from "../../Assests/fitnes_blender_image.jpg"
+import IMG4 from "../../Assests/nifty_website.jpg"
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useEffect } from 'react'
@@ -26,7 +27,32 @@ const Protfolio = () => {
           <p className='bold'>TechStack : JavaScript | HTML | CSS | Javascript | LocalStorage</p>
           <div className='portfolio_item-cta'>
             <a href="https://github.com/ujjwalpaul005/boat-lifestyle_clone" className='btn' target="_blank">Github</a>
-            <a href="https://glowing-mandazi-4b14bc.netlify.app" className='btn btn_primary' target="_blank">Live Demo</a>
+            <a href="https://voluble-marigold-c72fc5.netlify.app" className='btn btn_primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_image">
+            <img src={IMG4} alt="portfolio1" />
+          </div>
+          <h3>Cloning of Nifty :Project management</h3>
+          <small className='portofolio_margin'>Nifty is one of the most beautiful looking management tools on the market! This matters because customers are usually charmed by its aesthetics and intuitiveness. !</small>
+          <p>TechStack : HTML | CSS | JavaScript |  Font Awesome </p>
+
+          <div className='portfolio_item-cta'>
+            <a href="https://github.com/iam-souvik/newwebsite/tree/main/cared-eggs" className='btn' target="_blank">Github</a>
+            <a href="https://transcendent-stardust-28067d.netlify.app" className='btn btn_primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_image">
+            <img src={IMG3} alt="portfolio1" />
+          </div>
+          <h3> Cloing of Fitnes Blender</h3>
+          <small className='portofolio_margin'>Fitnes Blender Inc, Our goal is to make health and fitness attainable, affordable and approachable.</small>
+          <p className='bold'>Tech stack :  HTML | CSS | Javascript | Chakra UI | React | Redux | MongoDB</p>
+          <div className='portfolio_item-cta'>
+            <a href="https://github.com/HimanshuSingh1407/just-books-7908-Fitness-center" className='btn' target="_blank">Github</a>
+            <a href="https://fitnesscenter1.netlify.app/" className='btn btn_primary' target="_blank">Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -42,30 +68,8 @@ const Protfolio = () => {
             <a href="https://iam-souvik-makes-great-sites.netlify.app" className='btn btn_primary' target="_blank">Live Demo</a>
           </div>
         </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item_image">
-            <img src={IMG3} alt="portfolio1" />
-          </div>
-          <h3>Cloning Of J.crew</h3>
-          <small className='portofolio_margin'>J.Crew Group, Inc., is an American multi-brand, multi-channel, specialty retailer. The company offers an assortment of women's, men's, and children's apparel and accessories, including swimwear, outerwear, lounge-wear, bags, sweaters, denim, dresses, suiting, jewelry, and shoes.</small>
-          <p className='bold'>Tech stack :  HTML | CSS | Javascript | LocalStorage</p>
-          <div className='portfolio_item-cta'>
-            <a href="https://github.com/iam-souvik/prickly-pot-4724-_____" className='btn' target="_blank">Github</a>
-            <a href="#" className='btn btn_primary' target="_blank">Live Demo</a>
-          </div>
-        </article>
-        {/* <article className='portfolio_item'>
-          <div className="portfolio_item_image">
-            <img src={IMG1} alt="portfolio1" />
-          </div>
-          <h3>This is a portfolio title</h3>
-          <small className='portofolio_margin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex expedita dolore quas velit, suscipit unde. Culpa esse repellendus amet ratione porro, sunt ab maiores provident impedit? Laboriosam sunt officia culpa!</small>
-          <p>TechStack : Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-          <div className='portfolio_item-cta'>
-            <a href="https://github.com" className='btn' target="_blank">Github</a>
-            <a href="https://github.com" className='btn btn_primary' target="_blank">Live Demo</a>
-          </div>
-        </article> */}
+        
+       
       </div>
     </section>
   )
