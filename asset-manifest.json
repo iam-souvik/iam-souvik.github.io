@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.aa3d61c6.css",
-    "main.js": "/static/js/main.d271c00f.js",
+    "main.js": "/static/js/main.0f565794.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/bgimage2.jpg": "/static/media/bgimage2.038308633342903525a0.jpg",
     "static/media/stylecraze.jpg": "/static/media/stylecraze.ce3020ff6b83d4ac913b.jpg",
+    "static/media/Netflix.jpg": "/static/media/Netflix.8e2821a25ac08f614868.jpg",
     "static/media/Youtube_clone.jpg": "/static/media/Youtube_clone.d9b17e2a76b941dc4a50.jpg",
     "static/media/Boat.jpg": "/static/media/Boat.78a6ca834ddc7a6fc893.jpg",
     "static/media/nifty_website.jpg": "/static/media/nifty_website.b8f9ca01c07c21b0392b.jpg",
@@ -15,11 +16,11 @@
     "static/media/Mynew_photo.jpg": "/static/media/Mynew_photo.505a35a583de2a7b4d74.jpg",
     "index.html": "/index.html",
     "main.aa3d61c6.css.map": "/static/css/main.aa3d61c6.css.map",
-    "main.d271c00f.js.map": "/static/js/main.d271c00f.js.map",
+    "main.0f565794.js.map": "/static/js/main.0f565794.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa3d61c6.css",
-    "static/js/main.d271c00f.js"
+    "static/js/main.0f565794.js"
   ]
 }
