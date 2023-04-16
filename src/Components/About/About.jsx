@@ -27,15 +27,15 @@ const About = () => {
       </div>
       <div className='container experience_container about'>
         <div className="my_stats">
-          <div data-aos="fade-up" className='stats'>1200+</div>
+          <div data-aos="fade-up" className='stats'>1300+</div>
           <p>Hours of Full Stack Coding</p>
           <div data-aos="fade-up" className='stats'>100+</div>
           <p>Hours of Soft Skill Sessions</p>
         </div>
         <div data-aos="fade-up" className="my_stats">
-          <div className='stats'>250+</div>
+          <div className='stats'>350+</div>
           <p>DSA Problems</p>
-          <div data-aos="fade-up" className='stats'>4+</div>
+          <div data-aos="fade-up" className='stats'>10+</div>
           <p>Projects Done</p>
         </div>
       </div>
